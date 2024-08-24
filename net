@@ -1,0 +1,19 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens34:
+      addresses:
+      - 51.75.154.187/28
+      gateway4: 51.75.154.190
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+        search: []
+    ens35:
+      addresses:
+      - 169.254.105.104/16
+      nameservers:
+        addresses: []
+        search: []
+  version: 2
