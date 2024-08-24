@@ -3,6 +3,7 @@ network:
   ethernets:
     ens34:
       addresses:
+      4
       - 51.75.154.187/28
       gateway4: 51.75.154.190
       nameservers:
